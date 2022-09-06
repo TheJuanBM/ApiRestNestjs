@@ -1,7 +1,7 @@
 import { join } from 'path';
 
 import { Module } from '@nestjs/common/decorators/modules/module.decorator';
-import { MongooseModule } from '@nestjs/mongoose';
+import { MongooseModule } from '@nestjs/mongoose/dist/mongoose.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 
 import { PokemonModule } from './pokemon/pokemon.module';
